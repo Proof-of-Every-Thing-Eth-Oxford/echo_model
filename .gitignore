@@ -1,6 +1,15 @@
-onnx_env
+# Virtual environment
+onnx_env/
+venv/
+__pycache__/
+*.pyc
+
+# Proving artifacts
 *.key
-proof.json
+*.compiled
 settings.json
 witness.json
-model.compiled
+proof.json
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
